@@ -1,0 +1,186 @@
+/*Common Shared Styles*/
+
+body{
+  
+  font-family: "Open Sans", sans-serif;
+  
+  
+}
+.text-primary{
+    color: #0d3696;
+
+}
+.btn-primary{
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    background: #0d3696;
+    border: none;
+    
+     
+}
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+.section-description{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+
+}
+/*Nav related styles*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}     
+/* Header related styles */
+.header{
+    background-color: #537ddf;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner.pro-pic{
+    width: 500px;
+    
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* Main Section Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+
+/* About Section Styles */
+
+.about{
+    padding: 130px;
+    background-color: #537ddf;
+    margin-top: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+}
+/* What i do related / Skills related styles */
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0, 0.06);
+    
+}
+.skills-description{
+    
+}
+
+/* Resume Section Styles */
+
+.resume-column-title{
+    color:black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+    
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer Styles */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #537ddf;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-links{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
