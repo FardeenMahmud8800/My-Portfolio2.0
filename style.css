@@ -176,11 +176,58 @@ footer{
 }
 
 .contact input[type="text"], input[type="email"], textarea{
-    display: block;
+    display: flex;
     margin-bottom: 25px;
     padding: 18px 35px;
     font-size: 16px;
     border-radius: 5px;
     border: 0;
     width: 100%;
+}
+
+/* Responsive Styles */
+
+
+/* Mobile Devices */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    .header{
+        background-image: none;
+    }
+    
+
+    nav,nav>ul,.banner,.skills-container,  footer, .about-info-container{
+    flex-direction: column;
+    gap: 10px;
+   } 
+
+   .banner .pro-pic{
+    width: 100%;
+   }
+   .btn-primary{
+    margin-top: 15px;
+   }
+
+   .banner,#what-i-do-description{
+    padding: 20px;
+    text-align: justify;
+   }
+   .resume-container{
+    flex-direction: column;
+   }
+   footer, .about{
+    padding: 10px;
+
+   }
+   .footer-column{
+    width: 100%;
+   }
+   .contact input[type="text"], input[type="email"], textarea{
+    width: 80%;
+   } 
 }
